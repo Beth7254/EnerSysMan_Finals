@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
-import 'pages/login_page.dart';
+import 'package:EnerSysMan/pages/LoginScreen.dart';
+
+//import 'package:flutter_activity_one/pages/LoginScreen.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,7 +18,7 @@ class MyApp extends StatelessWidget {
         primarySwatch: Colors.blue,
         visualDensity: VisualDensity.adaptivePlatformDensity,
       ),
-      home: const LoginPage(),
+      home: const LoginScreen(),
     );
   }
 }
